@@ -1,0 +1,28 @@
+{
+	"schemaVersion": 1,
+	"id": "quickswitch",
+	"version": "${version}",
+	"name": "QuickSwitch",
+	"description": "Auto totem swap, auto minecart placement, and auto mace-switch — fully configurable via keybinds.",
+	"authors": [
+		"You"
+	],
+	"contact": {},
+	"license": "MIT",
+	"environment": "client",
+	"entrypoints": {
+		"main": [
+			"com.quickswitch.QuickSwitch"
+		],
+		"client": [
+			"com.quickswitch.QuickSwitchClient"
+		]
+	},
+	"mixins": [],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"fabric-api": "*",
+		"minecraft": "~1.21.1",
+		"java": ">=21"
+	}
+}
